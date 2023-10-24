@@ -1,0 +1,27 @@
+    
+.megaTexnika{
+    text-align: center;
+    padding-top: 60px;
+   
+}
+.largePic img{
+  width: 100%;
+}
+header{
+  background: #FFF;
+  box-shadow: 0px 2px 7px 0px rgba(159, 159, 159, 0.25);
+}
+.main-p{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.images{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+.secondpage{
+  padding-top: 70PX;
+}

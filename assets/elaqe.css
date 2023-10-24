@@ -1,0 +1,62 @@
+.write-contact{
+    display: flex;
+ 
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+    padding-bottom: 150px;
+}
+.writeToUs{
+    
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.buttonss{
+    display: flex;
+    flex-wrap: wrap;
+   
+    padding: 20px 0;
+    gap: 8px;
+    
+}
+
+.buttonss >input {
+ 
+    width: calc(50% - 10px);
+    margin-left: 0;
+    background-color: white;
+    padding: 20px;
+  
+}
+
+.message textarea{
+    width: calc(100%);
+    resize: vertical;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 1px solid #353535;
+    padding: 15px;
+}
+.send-it button{
+    width: calc(100%);
+    border-radius: 30px;
+    background: #FFC01F;
+    padding: 10px;
+    margin-top: 20px;
+    border: #FFC01F;
+    cursor: pointer;
+}
+.elaqee{
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+    display: flex;
+    flex-direction: column;
+   padding: 40px;
+    gap: 25px;
+}
+.network-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

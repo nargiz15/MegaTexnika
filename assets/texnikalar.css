@@ -1,0 +1,25 @@
+.mainTech{
+    text-align: center;
+    padding-top: 120px;
+    
+}
+.longframe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    border-radius: 30px;
+    border: 1px solid #353535;
+    
+}
+.all {
+    padding: 10px;
+}
+.tech-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.group{
+    margin-top: 30px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+.top-header{
+    width: 100%;
+    height: 40px;
+    background: #FFC01F;
+}
+header{
+        background: #FFF;
+        box-shadow: 0px 2px 7px 0px rgba(159, 159, 159, 0.25);
+}
+.headSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.rightSide-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 118px;
+    background-color: white
+
+}
+.main-p{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+.container{
+    max-width: 1350px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.agirTexnika{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 130px;
+}
+.leftside img{
+    margin-top: 30px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.538);
+}
+.kateqoriyalar{
+    padding-top: 100px;
+}
+.categories{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.category-card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 315px;
+    height: 392px;
+    margin-top: 40px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px 0px rgba(164, 164, 164, 0.25), 0px 1px 7px 0px rgba(194, 194, 194, 0.25) inset;
+    
+}
+.secondpage{
+    padding-top: 100px;
+    
+}
+ .rightside button:hover{
+   background-color: #FFC01F;
+}
+.images{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    
+    
+}
+.first-image{
+    padding-top: 140px;
+}
+.tech-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.techCard{
+    width: 315px;
+    height: 545px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+    margin-top: 30px;
+}
+.azn{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    margin-right: 20px;
+    color: #FFC01F;
+    font-size: 20px;
+    font-weight: 600;
+}
+.texnikalar{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.look{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.marka{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #596C72;
+}
+.marka-images{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+
+.yenilikler{
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+.yeni-cards{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-between
+    
+
+}
+.yeniCard-photo{
+    width: 315px;
+    height: 428px;
+    background: #FFF;
+    box-shadow: 0px 0px 7px 0px rgba(149, 149, 149, 0.25);
+}
+
+.elaqe{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+.four-buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+input{
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 1px solid #353535;
+    margin-left: 40px;
+    text-align: center;
+    background-color: #EFEFEF;;
+}
+
+.send{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.secmelisiz{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.img-choose img{
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(149, 149, 149, 0.25);
+}
+
+footer{
+    
+    background-color: #FFF6DFFF; 
+    margin-top: 40px;
+  
+}
+
+.about ul{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.address ul {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.hours{
+    margin-top: -40px;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.last-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
